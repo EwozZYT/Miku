@@ -1,0 +1,17 @@
+{
+  "name": "miku",
+  "version": "1.0.0",
+  "description": "Bot Qui fait de tout, dev By EwozZ_YT pour toute question go https://discord.gg/3PJuTV82HP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "!\" 𝓔𝔀𝓸𝔃𝓩_𝓨𝓣 ' ♆⛉ 卍[GΞИ]#0666",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "humanize-duration": "^3.27.0",
+    "moment": "^2.29.1",
+    "parse-duration": "^1.0.0"
+  }
+}
