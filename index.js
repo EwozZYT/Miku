@@ -1,4 +1,5 @@
 require('dotenv').config();
+const ytdl = require('ytdl-core');
 const Discord = require('discord.js'),
     client = new Discord.Client({
         partials: ['MESSAGE', 'REACTION'],

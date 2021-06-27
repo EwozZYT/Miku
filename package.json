@@ -9,10 +9,15 @@
   "author": "!\" 𝓔𝔀𝓸𝔃𝓩_𝓨𝓣 ' ♆⛉ 卍[GΞИ]#0666",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/opus": "^0.5.3",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "fluent-ffmpeg": "^2.1.2",
     "humanize-duration": "^3.27.0",
     "moment": "^2.29.1",
-    "parse-duration": "^1.0.0"
+    "parse-duration": "^1.0.0",
+    "ytdl-core": "^4.8.3"
   }
 }
