@@ -16,16 +16,6 @@ module.exports = {
             ▸ Tout caractère choquant ou pornographiques, etc sont interdites. 
             ▸ Le non respect du staff sera punie d'un warn, le respect des membres est obligatoire aussi.
             ▸ L' harcèlement ou les menaces sont interdites.`, true)
-            .addField(` Deuxièmement nous voulons des salons propre et lisible donc :
-            ▸ Le spam est interdit.
-            ▸ En cas de soucis entre deux personnes aller en message privé ou nous le reporté 
-            ▸ Le flood est interdit
-             -> voici pour les interdiction passible par un mute. 
-              ' Troisièmement les messages privé ¦ channel vocaux
-            ▸ La pub en message privé est interdite.
-            ▸ Menaces ou intimidations interdites.
-            ▸ Merci de ne pas crié, insulter dans les vocaux.
-            -> voici les interdictions ou nous allons voir pour la sanction, selon la gravité.`,true )
             .setAuthor('Miku | By EwozZ_YT', 'https://cdn.discordapp.com/attachments/858745744030957609/859155711677562940/OIP_1.jpg', 'https://google.fr')
             .setImage('https://cdn.discordapp.com/attachments/858745744030957609/859155711677562940/OIP_1.jpg')
             .setThumbnail('https://cdn.discordapp.com/attachments/858745744030957609/859155711677562940/OIP_1.jpg')
