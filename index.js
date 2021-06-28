@@ -85,8 +85,8 @@ client.on('messageReactionRemove', (reaction, user) => {
  
 client.on('ready', () => {
     const statuses = [
-        () => `${client.guilds.cache.size} serveurs, Dev By EwozZ_YT`,
-        () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} utilisateurs, Dev By EwozZ_YT`
+        () => `${client.guilds.cache.size} serveurs Prefix ">", Dev By EwozZ_YT`,
+        () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} utilisateurs Prefix ">", Dev By EwozZ_YT`
     ]
     let i = 0
     setInterval(() => {
