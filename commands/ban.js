@@ -21,6 +21,5 @@ module.exports = {
     },
     name: 'ban',
     guildOnly: true,
-
 }
  
