@@ -20,10 +20,7 @@ module.exports = {
             .addField('Durée', '∞', true))
     },
     name: 'ban',
-    guildOnly: true
-    help: {
-        description: 'Exclue un membre du serveur.',
-        syntax: '<@membre> [raison]'
-    }
+    guildOnly: true,
+
 }
  
