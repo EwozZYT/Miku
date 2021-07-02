@@ -85,8 +85,8 @@ client.on('messageReactionRemove', (reaction, user) => {
  
 client.on('ready', () => {
     const statuses = [
-        () => `${client.guilds.cache.size} serveurs Prefix ">", Dev By EwozZ_YT`,
-        () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} utilisateurs Prefix ">", Dev By EwozZ_YT`
+        () => `${client.guilds.cache.size} serveurs Prefix ">", Dev By !" 𝓔𝔀𝓸𝔃𝓩_𝓨𝓣 ' ♆⛉ 卍[GΞИ]#0666`,
+        () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} utilisateurs Prefix ">", Dev By !" 𝓔𝔀𝓸𝔃𝓩_𝓨𝓣 ' ♆⛉ 卍[GΞИ]#0666`
     ]
     let i = 0
     setInterval(() => {
