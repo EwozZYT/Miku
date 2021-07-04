@@ -18,8 +18,11 @@ module.exports = {
             .addField('Modérateur', message.author, true)
             .addField('Raison', reason, true)
             .addField('Durée', '∞', true))
-    },
-    name: 'ban',
-    guildOnly: true,
-}
- 
+     },
+     name: 'ban',
+      guildOnly: true,
+       help: {
+         description: 'Cette commande permet de Bannir des membre définitivement.',
+         syntax: '>ban @user '
+      }
+ }
