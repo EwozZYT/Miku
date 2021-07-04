@@ -23,6 +23,6 @@ module.exports = {
       guildOnly: true,
        help: {
          description: 'Cette commande permet de Bannir des membre définitivement.',
-         syntax: '>ban @user '
+         syntax: ' @user '
       }
  }
