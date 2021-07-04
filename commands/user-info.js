@@ -13,8 +13,11 @@ module.exports = {
             .addField('Infractions', client.db.warns[member.id] ? client.db.warns[member.id].length : 'Aucune', true)
             .setThumbnail(member.user.displayAvatarURL())
             .setFooter(`ID : ${member.id}`))
-    },
-    name: 'user-info',
-    guildOnly: true
-}
- 
+        },
+        name: 'user-info',
+         guildOnly: true,
+          help: {
+            description: 'Cette commande permet de voir les information de la personne mentionné.',
+            syntax: ' @user '
+         }
+    }

@@ -24,8 +24,11 @@ module.exports = {
             .addField('Utilisateur', member, true)
             .addField('Modérateur', message.author, true)
             .addField('Raison', reason, true))
-    },
-    name: 'warn',
-    guildOnly: true
-}
- 
+        },
+        name: 'warn',
+         guildOnly: true,
+          help: {
+            description: 'Cette commande permet de warn les membre du serveur.',
+            syntax: ' @user '
+         }
+    }
